@@ -1,0 +1,120 @@
+html {
+    position: relative;
+    background-color: black;
+}
+
+body {
+    background-color: black;
+    border: 29px silver;
+    border-top: 0px;
+    border-bottom: 0px;
+    margin-top: 0px;
+    border-style: solid;
+}
+
+.border {
+    height: 29px;
+    width: 100%;
+    margin: 0px;
+    background: silver;
+}
+
+
+.score {
+    color: white;
+    margin: 10px;
+    position: relative;
+    top: 0px;
+    left: 75%;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 24;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    
+}
+
+.bricktable {
+    margin: 50px;
+    border-style:solid;
+    border-color:#287EC7;
+}
+
+
+
+table {
+    width: 100%;
+    margin-top: 25px;
+    min-width: 20%;
+}
+
+th, td {
+    width: 125px;
+    height: 50px;
+}
+
+table td {
+    background: white
+}
+
+
+.row1and2 td {
+    background: red;
+}
+
+.row3and4 td {
+    background: yellow;
+}
+
+.brokenblocks {
+    background: black !important;
+}
+
+.row5and6 td {
+    background: green;
+}
+
+.row7and8 td {
+    background: blue
+}
+
+.paddle {
+    height: 20px;
+    width: 100px;
+    background-color: wheat;
+    position: absolute;
+    left: 50%;
+    bottom: 5%;
+    color: rgb(238, 158, 11);
+    text-align: center;
+}
+
+.ball {
+    height: 15px;
+    width: 15px;
+    background: antiquewhite;
+    position: absolute;
+}
+
+.ball1 {
+    left: 73.7%;
+    top: 20.8%;
+    background-color: white;
+}
+
+.ball2 {
+    left: 18.8%;
+    top: 20.8%;
+    background-color: white;
+}
+
+.ball3 {
+    left: 3%;
+}
+
+/* <div class="second-two-rows"> */
