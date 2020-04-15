@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    size: 0;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    background-color: black;
+    width: 100%;
+    height: 75px;
+    display: flex;
+}
+
+.menu div {
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+    height: 75px;
+    color: red;
+    justify-content: center;
+    /* Aligns the text horizontally centered*/
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+}
+
+.images div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;  
+}
+
+.images img {
+    width: 100%;
+    margin: 20px;
+}
+
+
+/* Mobile Devices */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu div {
+        width: 100%;
+        height: 25px;
+    }
+    .images {
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px){
+    body {
+        background-color: green;
+    }
+    .images {
+        display: flex;
+        justify-content: center;
+    }
+
+    .images div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;  
+    }
+
+    .images img {
+        width: 100%;
+        margin: 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    body {
+        background-color: brown;
+    }
+}
+
+.banner img {
+    align-content: center;
+    width: 100%;
+}
